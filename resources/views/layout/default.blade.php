@@ -6,7 +6,9 @@
 </head>
 
 <body>
-    <header></header>
+    <header>
+        @include('includes.header')
+    </header>
 
     <main>
         @yield('content')
